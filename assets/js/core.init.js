@@ -82,12 +82,12 @@ if (window.location != window.parent.location)
 			$('html').addClass('content-transitions');
 		
 		var c = $('.container-fluid');
-		c.toggleClass('menu-hidden sidebar-hidden-phone');
+		//c.toggleClass('menu-hidden sidebar-hidden-phone');
 
 		if (c.is('.menu-hidden'))
-			$('#menu').addClass('hidden-xs');
+		//	$('#menu').addClass('hidden-xs');
 		else
-			$('#menu').removeClass('hidden-xs');
+		//	$('#menu').removeClass('hidden-xs');
 	}
 
 	if (typeof Holder != 'undefined')

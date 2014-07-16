@@ -13,6 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	
 	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/lib/font-awesome/css/font-awesome.css">
 	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -63,7 +64,7 @@
 				
 				<!-- Sidebar Profile -->
 				<span class="profile center">
-					<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/my_account_advanced.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0"><img class="img-responsive" src="./FLAT KIT Template (v2.3.0)_files/avatar-74x74.jpg" alt="Avatar"></a>
+					<a href="" alt="Avatar"></a>
 				</span>
 				<!-- // Sidebar Profile END -->
 				
@@ -71,195 +72,44 @@
 				<ul>
 				
 					<li class="hasSubmenu active">
-	<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_dashboard" class="glyphicons dashboard"><i></i><span>Dashboard</span><span class="fa fa-chevron-down"></span></a>
-	<ul class="collapse" id="menu_dashboard">
-		<li class=" active"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Default</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/dashboard_analytics.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Analytics</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/dashboard_users.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Users</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/dashboard_overview.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Overview</a></li>
-	</ul>
-</li>
+						<a data-toggle="collapse" href="#menu_dashboard" class="glyphicons dashboard"><i></i><span>Dashboard</span><span class="fa fa-chevron-down"></span></a>
+						<ul class="collapse" id="menu_dashboard">
+							<li class=" active"><a href="">Default</a></li>
+							<li class=""><a href="">Analytics</a></li>
+							<li class=""><a href="">Users</a></li>
+							<li class=""><a href="">Overview</a></li>
+						</ul>
+					</li>
 
-<li class="hasSubmenu">
-	<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_components" data-toggle="collapse" class="glyphicons settings collapsed"><i></i><span>Components</span><span class="fa fa-chevron-down"></span></a>
-	<ul class="collapse" id="menu_components" style="height: 0px;">
+					<li class="hasSubmenu">
+						<a href="#menu_components" data-toggle="collapse" class="glyphicons settings collapsed"><i></i><span>Components</span><span class="fa fa-chevron-down"></span></a>
+						<ul class="collapse" id="menu_components" style="height: 0px;">
 	
-		<!-- Components Submenu Level 2 -->
-		<li class="hasSubmenu">
-			<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_components_forms" data-toggle="collapse">Forms<span class="badge badge-primary fix">4</span></a>
-			<ul class="collapse" id="menu_components_forms">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/form_wizards.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Form Wizards</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/form_elements.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Form Elements</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/form_validator.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Form Validator</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/file_managers.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">File Managers</a></li>
-			</ul>
-		</li>
-		<!-- // Components Submenu Level 2 END -->
+					<!-- Components Submenu Level 2 -->
+					<li class="hasSubmenu">
+						<a href=" #menu_components_forms" data-toggle="collapse">Forms<span class="badge badge-primary fix">4</span></a>
+						<ul class="collapse" id="menu_components_forms">
+							<li class=""><a href="">Form Wizards</a></li>
+						</ul>
+					</li>
+	
+					<li class="hasSubmenu">
+						<a href=" #menu_components_tables" data-toggle="collapse">Tables<span class="badge badge-primary fix">3</span></a>
+						<ul class="collapse" id="menu_components_tables">
+							<li class=""><a href="">Tables</a></li>
+							<li class=""><a href="">Responsive Tables</a></li>
+							<li class=""><a href="">Pricing tables</a></li>
+						</ul>
+					</li>
 		
-		<li class="hasSubmenu">
-			<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_components_tables" data-toggle="collapse">Tables<span class="badge badge-primary fix">3</span></a>
-			<ul class="collapse" id="menu_components_tables">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/tables.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Tables</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/tables_responsive.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Responsive Tables</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/pricing_tables.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Pricing tables</a></li>
-			</ul>
-		</li>
 		
-		<!-- Components Submenu Regular Items -->
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/ui.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">UI Elements</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/icons.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Icons</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/widgets.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Widgets</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/tabs.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Tabs</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/sliders.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Sliders</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/charts.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Charts</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/grid.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Grid system</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/notifications.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Notifications</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/modals.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Modals</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/thumbnails.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Thumbnails</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/carousels.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Carousels</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/image_crop.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Image Cropping</a></li>
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/tour.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Page Tour</a></li>
-
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/twitter.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Twitter API</a></li>
-		
-		<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/infinite_scroll.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Infinite Scroll</a></li>
-		<!-- // Components Submenu Regular Items END -->
-	</ul>
-</li>
-<li class="hasSubmenu">
-	<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_pages" data-toggle="collapse" class="glyphicons notes"><i></i><span>Pages</span><span class="fa fa-chevron-down"></span></a>
-	<ul class="collapse" id="menu_pages">
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_social" class="glyphicons star"><i></i>Social</a>
-			<ul class="collapse" id="menu_social">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/social_activity.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Social Activity</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/email.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Email</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/email_2.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Email #2</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/messages.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Messages</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/timeline.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Timelines</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/social.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Social Widgets</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/ratings.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Ratings</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_support" class="glyphicons circle_question_mark"><i></i>Support</a>
-			<ul class="collapse" id="menu_support">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/support_tickets.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Tickets</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/support_questions.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Questions</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/support_answers.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Answers</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/support_kb.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Knowledge Base</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/support_forum_overview.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Forums Home</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/support_forum_post.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Forums Post</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_learning" class="glyphicons book"><i></i>Learning</a>
-			<ul class="collapse" id="menu_learning">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/courses_2.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Courses Overview</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/courses_listing.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Courses Listing</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/course.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Course Page</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_medical" class="glyphicons circle_plus"><i></i>Medical</a>
-			<ul class="collapse" id="menu_medical">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/medical_overview.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Medical Overview</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/medical_patients.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Medical Patients</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/medical_appointments.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Appointments</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/medical_memos.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Medical Memos</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/medical_metrics.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Medical Metrics</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_content" class="glyphicons notes"><i></i>Content</a>
-			<ul class="collapse" id="menu_content">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/news.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">News</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/faq.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">FAQ</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/search.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Search</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_media" class="glyphicons picture"><i></i>Multimedia</a>
-			<ul class="collapse" id="menu_media">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/gallery.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Photos</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/gallery_video.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Videos</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_financial" class="glyphicons calculator"><i></i>Financial</a>
-			<ul class="collapse" id="menu_financial">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/invoice.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Invoice</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/bookings.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Bookings</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/finances.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Finances</a></li>
-			</ul>
-		</li>
-		
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_account" class="glyphicons user"><i></i>Account</a>
-			<ul class="collapse" id="menu_account">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/profile_resume.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0"><i></i>Profile/Resume</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/my_account_advanced.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Advanced profile</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/my_account.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">My Account</a></li>
-				<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/login.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0"><i></i>Login</a></li>
-				<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/signup.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0"><i></i>Register</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_maps" class="glyphicons google_maps"><i></i>Maps</a>
-			<ul class="collapse" id="menu_maps">
-				<li class=""><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/admin/maps_vector.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Vector maps</a></li>
-				<li class=""><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/admin/maps_google.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Google maps</a></li>
-			</ul>
-		</li>
-
-		<li class="hasSubmenu">
-			<a data-toggle="collapse" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_shop" class="glyphicons shopping_cart"><i></i>Online Shop</a>
-			<ul class="collapse" id="menu_shop">
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/shop_products.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Products</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/shop_edit_product.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Add product</a></li>
-				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/shop_orders_timeline.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Orders Timeline</a></li>
-			</ul>
-		</li>
-
-		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/surveys_multiple.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons circle_question_mark"><i></i>Survey</a></li>
-		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/events.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons calendar"><i></i>Events</a></li>
-		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/employees.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons group"><i></i>Employees</a></li>
-		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/typography.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons font"><i></i>Typography</a></li>
-		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/calendar.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons calendar"><i></i>Calendar</a></li>
-		
-				<li class="hasSubmenu">
-			<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#menu_pages_front" data-toggle="collapse" class="glyphicons user"><i></i>Front<span class="badge badge-primary fix">15</span></a>
-			<ul class="collapse" id="menu_pages_front">
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/index_slider.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Revolution Slider Fixed</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/index_slider_fullwidth.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Revolution Slider Wide</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/index.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Home page #1</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/index_2.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Home page #2</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/about.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">About us</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/pricing.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Pricing</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/blog.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Blog</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/blog_timeline.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Blog Timeline</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/shop.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Shop Catalog</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/shop_product.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Shop Product</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/shop_cart.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Shopping Cart</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/contact.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Contact</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/login.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Login</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/signup.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Sign up</a></li>
-				<li><a class="no-ajaxify" href="http://cdn.mosaicpro.biz/flatkit/php/front/error.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Error page</a></li>
-			</ul>
-		</li>
-				
-		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/error.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons warning_sign"><i></i>Error page</a></li>
-		<!-- <li><a href="blank.html?lang=en&amp;layout_type=fluid&amp;menu_position=menu-left&amp;style=style-default-menus-dark&amp;rtl=false&amp;top-sticky=true&amp;sidebar-sticky=true&amp;sidebar=true&amp;sidebar_type=collapsible&amp;animations=false&amp;menuh_position=top&amp;sidebar_hat=true&amp;sidebar_width=wide&amp;v=v2.3.0" class="glyphicons magic"><i></i>Blank page</a></li> -->
-	</ul>
-</li>
+					<li class="hasSubmenu">
+						<a href=" #menu_pages" data-toggle="collapse" class="glyphicons notes"><i></i><span>Pages</span><span class="fa fa-chevron-down"></span></a>
+						<ul class="collapse" id="menu_pages">
+							<li><a href="" class="glyphicons circle_question_mark"><i></i>Survey</a></li>
+							<li><a href="" class="glyphicons warning_sign"><i></i>Error page</a></li>
+						</ul>
+					</li>
 
 
 					
@@ -278,6 +128,8 @@
 		<div id="ascrail2000" class="nicescroll-rails" style="width: 5px; z-index: 1001; cursor: default; position: absolute; top: 43px; left: 55px; height: 524px; display: none; opacity: 0;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; border: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; background-color: rgb(229, 65, 45); background-clip: padding-box;"></div></div></div>
 		<!-- // Sidebar Menu END -->
 				
+
+
 		<!-- Content -->
 		<div id="content">
 		
@@ -296,7 +148,7 @@
 		<li class="dropdown dd-1 active">
 			<a data-toggle="dropdown" class="dropdown-toggle glyphicons dashboard"><i></i>Dashboard <span class="caret"></span></a>
 			<ul class="dropdown-menu pull-left">
-				<li class=" active"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Default</a></li>
+				<li class=" active"><a href="">Default</a></li>
 				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/dashboard_analytics.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Analytics</a></li>
 				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/dashboard_users.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Users</a></li>
 				<li class=""><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/dashboard_overview.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0">Overview</a></li>
@@ -352,9 +204,9 @@
 					<a data-toggle="dropdown" class="dropdown-toggle glyphicons circle_info"><i></i>4 Level Menu</a>
 					<ul class="dropdown-menu submenu-show submenu-hide pull-right">
 						<li class="dropdown submenu">
-							<a data-toggle="dropdown" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="dropdown-toggle">Menu item</a>
+							<a data-toggle="dropdown" href=" #" class="dropdown-toggle">Menu item</a>
 							<ul class="dropdown-menu submenu-show submenu-hide pull-right">
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#">Menu item</a></li>
+								<li><a href=" #">Menu item</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -494,42 +346,42 @@
 			</ul>
 		</li>
 		<li class="mega-menu hidden-xs">
-			<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="glyphicons sheriffs_star"><i></i> Mega menu</a>
+			<a href=" #" class="glyphicons sheriffs_star"><i></i> Mega menu</a>
 			<div class="mega-sub">
 				<div class="mega-sub-inner">
 					<div class="row"> 
 						<div class="col-md-2">
 							<h4><i class="fa fa-book icon-fixed-width text-primary"></i> Learning</h4>
 							<ul class="icons-ul">
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Catch the Bullet</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Snoopydoo</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Fallen Angel</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Sui Maker</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Wave Master</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Golf Pro</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Catch the Bullet</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Snoopydoo</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Fallen Angel</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Sui Maker</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Wave Master</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Golf Pro</a></li>
 							</ul>
 						</div>
 						<div class="col-md-2">
 							<h4><i class="fa fa-wrench icon-fixed-width text-primary"></i> Utilities</h4>
 							<ul class="icons-ul">
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Gadget Finder</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Green Tree Express</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Green Tree Pro</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Wobbler 3.0</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Coolkid</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Gadget Finder</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Green Tree Express</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Green Tree Pro</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Wobbler 3.0</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Coolkid</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3">
 							<h4><i class="fa fa-android icon-fixed-width text-primary"></i> Education</h4>
 							<ul class="icons-ul">
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Learn Thai</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Math Genius</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Chemokid</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Learn Thai</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Math Genius</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Chemokid</a></li>
 							</ul>
 							<h4><i class="fa fa-apple icon-fixed-width text-primary"></i> Professionals</h4>
 							<ul class="icons-ul">
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Success 1.0</a></li>
-								<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><span class="icon-li fa fa-arrow-right"></span> Moneymaker</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Success 1.0</a></li>
+								<li><a href=" #"><span class="icon-li fa fa-arrow-right"></span> Moneymaker</a></li>
 							</ul>
 						</div>
 						<div class="col-md-5">
@@ -593,11 +445,11 @@
     	</li>
 		<!-- // Colors END -->
 	
-				<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#template-options" data-toggle="collapse" class="glyphicons cogwheel single-icon"><i></i></a></li>
+				<li><a href=" #template-options" data-toggle="collapse" class="glyphicons cogwheel single-icon"><i></i></a></li>
 				
 		<!-- Language menu -->
 		<li class="hidden-xs dropdown dd-1 dd-flags" id="lang_nav">
-			<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" data-toggle="dropdown"><img src="./FLAT KIT Template (v2.3.0)_files/en.png" alt="en"></a>
+			<a href=" #" data-toggle="dropdown"><img src="./FLAT KIT Template (v2.3.0)_files/en.png" alt="en"></a>
 	    	<ul class="dropdown-menu pull-right">
 	      		<li class="active"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0&lang=en" title="English"><img src="./FLAT KIT Template (v2.3.0)_files/en.png" alt="English"> English</a></li>
 	      		<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0&lang=ro" title="Romanian"><img src="./FLAT KIT Template (v2.3.0)_files/ro.png" alt="Romanian"> Romanian</a></li>
@@ -649,43 +501,43 @@
 				<li class="primary"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/my_account_advanced.html?lang=en" class="glyphicons envelope">View all Emails<i></i></a></li>
 				<li>
 					<div class="innerAll">
-						<span class="padding-none">From <a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean">Adrian Demian</a> 2 days ago</span>
+						<span class="padding-none">From <a href=" #" class="clean">Adrian Demian</a> 2 days ago</span>
 						<small>Lorem Ipsum is simply dummy text of the printing and typesetting industry....</small>
 					</div>
 
-					<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
+					<a href=" #" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
 				</li>
 				<li>
 					<div class="innerAll">
-						<span class="padding-none">From <a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean">Adrian Demian</a> 2 days ago</span>
+						<span class="padding-none">From <a href=" #" class="clean">Adrian Demian</a> 2 days ago</span>
 						<small>Lorem Ipsum is simply dummy text of the printing and typesetting industry....</small>
 					</div>
 
-					<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
+					<a href=" #" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
 				</li>
 				<li>
 					<div class="innerAll">
-						<span class="padding-none">From <a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean">Adrian Demian</a> 2 days ago</span>
+						<span class="padding-none">From <a href=" #" class="clean">Adrian Demian</a> 2 days ago</span>
 						<small>Lorem Ipsum is simply dummy text of the printing and typesetting industry....</small>
 					</div>
 
-					<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
+					<a href=" #" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
 				</li>
 				<li>
 					<div class="innerAll">
-						<span class="padding-none">From <a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean">Adrian Demian</a> 2 days ago</span>
+						<span class="padding-none">From <a href=" #" class="clean">Adrian Demian</a> 2 days ago</span>
 						<small>Lorem Ipsum is simply dummy text of the printing and typesetting industry....</small>
 					</div>
 
-					<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
+					<a href=" #" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
 				</li>		
 				<li>
 					<div class="innerAll">
-						<span class="padding-none">From <a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean">Adrian Demian</a> 2 days ago</span>
+						<span class="padding-none">From <a href=" #" class="clean">Adrian Demian</a> 2 days ago</span>
 						<small>Lorem Ipsum is simply dummy text of the printing and typesetting industry....</small>
 					</div>
 
-					<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
+					<a href=" #" class="clean btn btn-icon innerAll"><i class="fa fa-link"></i> Attachment</a> 
 				</li>
 			</ul>
 		</li>
@@ -730,11 +582,11 @@
 			</ul>
 		</li>
 		<li class="dropdown dd-1">
-			<a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" class="glyphicons comments single-icon" data-toggle="dropdown"><i></i><span class="badge fix badge-primary">4</span></a>
+			<a href=" #" class="glyphicons comments single-icon" data-toggle="dropdown"><i></i><span class="badge fix badge-primary">4</span></a>
 			<ul class="dropdown-menu pull-right notifications">
 								<li>
 					<div class="media">
-						<a class="pull-left" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#">
+						<a class="pull-left" href=" #">
 					    	<img data-src="holder.js/33x33/dark" class="media-object" alt="33x33" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAABfElEQVRYR+1XTYuCUBQ9lVItwp1F/YcIImjdplaCWyOof2eg4MJF0KIgyL3QP8iWfSAoBOVwHzMw4zORFjOzeG6Eo+dx7rnnerE0Go0S/PFVEiI+OyCc+IqicEI4kf4siUyITBTKRLfbRbvdxul0gu/7jJOFZe29d7hcMPv9PgaDAcIwRKPRwG63Q61W47DD4cBpeJfLiRgOh6jX69hsNlgsFjgej0xQGkuSBM1mE47jYDKZII5jnM/nQtz1ev2jgMwRrVQqmM/nkGUZrusyIWnscrnAMAyGP59PLJdL3G437r0sLmHfL04EWU+HqqqK8XiMIAiw3W45bLVasRZRCyg3+/2eta0oN1fEdDrF/X6Hbdus0uv1CkVROIwsnc1mkCQJj8cDpmlC07RCXHI3V0Sr1WKHlctlVhUR6J7Ger0eOp0OLMuCruug9nieV4hLU5crgh5SddVqFVEUgQL4Cssa0Xe4YneI3VFod/z2v5AIpgimCOarqfsX0/EBXNpalt2aXBMAAAAASUVORK5CYII=" style="width: 33px; height: 33px;">
 					  	</a>
 					  	<div class="media-body">
@@ -745,7 +597,7 @@
 				</li>
 								<li>
 					<div class="media">
-						<a class="pull-left" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#">
+						<a class="pull-left" href=" #">
 					    	<img data-src="holder.js/33x33/dark" class="media-object" alt="33x33" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAABfElEQVRYR+1XTYuCUBQ9lVItwp1F/YcIImjdplaCWyOof2eg4MJF0KIgyL3QP8iWfSAoBOVwHzMw4zORFjOzeG6Eo+dx7rnnerE0Go0S/PFVEiI+OyCc+IqicEI4kf4siUyITBTKRLfbRbvdxul0gu/7jJOFZe29d7hcMPv9PgaDAcIwRKPRwG63Q61W47DD4cBpeJfLiRgOh6jX69hsNlgsFjgej0xQGkuSBM1mE47jYDKZII5jnM/nQtz1ev2jgMwRrVQqmM/nkGUZrusyIWnscrnAMAyGP59PLJdL3G437r0sLmHfL04EWU+HqqqK8XiMIAiw3W45bLVasRZRCyg3+/2eta0oN1fEdDrF/X6Hbdus0uv1CkVROIwsnc1mkCQJj8cDpmlC07RCXHI3V0Sr1WKHlctlVhUR6J7Ger0eOp0OLMuCruug9nieV4hLU5crgh5SddVqFVEUgQL4Cssa0Xe4YneI3VFod/z2v5AIpgimCOarqfsX0/EBXNpalt2aXBMAAAAASUVORK5CYII=" style="width: 33px; height: 33px;">
 					  	</a>
 					  	<div class="media-body">
@@ -756,7 +608,7 @@
 				</li>
 								<li>
 					<div class="media">
-						<a class="pull-left" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#">
+						<a class="pull-left" href=" #">
 					    	<img data-src="holder.js/33x33/dark" class="media-object" alt="33x33" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAABfElEQVRYR+1XTYuCUBQ9lVItwp1F/YcIImjdplaCWyOof2eg4MJF0KIgyL3QP8iWfSAoBOVwHzMw4zORFjOzeG6Eo+dx7rnnerE0Go0S/PFVEiI+OyCc+IqicEI4kf4siUyITBTKRLfbRbvdxul0gu/7jJOFZe29d7hcMPv9PgaDAcIwRKPRwG63Q61W47DD4cBpeJfLiRgOh6jX69hsNlgsFjgej0xQGkuSBM1mE47jYDKZII5jnM/nQtz1ev2jgMwRrVQqmM/nkGUZrusyIWnscrnAMAyGP59PLJdL3G437r0sLmHfL04EWU+HqqqK8XiMIAiw3W45bLVasRZRCyg3+/2eta0oN1fEdDrF/X6Hbdus0uv1CkVROIwsnc1mkCQJj8cDpmlC07RCXHI3V0Sr1WKHlctlVhUR6J7Ger0eOp0OLMuCruug9nieV4hLU5crgh5SddVqFVEUgQL4Cssa0Xe4YneI3VFod/z2v5AIpgimCOarqfsX0/EBXNpalt2aXBMAAAAASUVORK5CYII=" style="width: 33px; height: 33px;">
 					  	</a>
 					  	<div class="media-body">
@@ -767,7 +619,7 @@
 				</li>
 								<li>
 					<div class="media">
-						<a class="pull-left" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#">
+						<a class="pull-left" href=" #">
 					    	<img data-src="holder.js/33x33/dark" class="media-object" alt="33x33" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAABfElEQVRYR+1XTYuCUBQ9lVItwp1F/YcIImjdplaCWyOof2eg4MJF0KIgyL3QP8iWfSAoBOVwHzMw4zORFjOzeG6Eo+dx7rnnerE0Go0S/PFVEiI+OyCc+IqicEI4kf4siUyITBTKRLfbRbvdxul0gu/7jJOFZe29d7hcMPv9PgaDAcIwRKPRwG63Q61W47DD4cBpeJfLiRgOh6jX69hsNlgsFjgej0xQGkuSBM1mE47jYDKZII5jnM/nQtz1ev2jgMwRrVQqmM/nkGUZrusyIWnscrnAMAyGP59PLJdL3G437r0sLmHfL04EWU+HqqqK8XiMIAiw3W45bLVasRZRCyg3+/2eta0oN1fEdDrF/X6Hbdus0uv1CkVROIwsnc1mkCQJj8cDpmlC07RCXHI3V0Sr1WKHlctlVhUR6J7Ger0eOp0OLMuCruug9nieV4hLU5crgh5SddVqFVEUgQL4Cssa0Xe4YneI3VFod/z2v5AIpgimCOarqfsX0/EBXNpalt2aXBMAAAAASUVORK5CYII=" style="width: 33px; height: 33px;">
 					  	</a>
 					  	<div class="media-body">
@@ -790,7 +642,7 @@
 				
 <ul class="breadcrumb">
 	<li>You are here</li>
-	<li><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="glyphicons dashboard"><i></i> FLAT KIT</a></li>
+	<li><a href="" class="glyphicons dashboard"><i></i> FLAT KIT</a></li>
 			<li class="divider"><i class="fa fa-caret-right"></i></li>
 		<li>Index</li>
 	</ul>
@@ -1371,11 +1223,11 @@
 			<!-- Tabs Heading -->
 			<div class="widget-head">
 				<ul>
-					<li><a class="glyphicons user_add" data-toggle="tab" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#filterUsersTab"><i></i>Users</a></li>
-					<li><a class="glyphicons shopping_cart" data-toggle="tab" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#filterOrdersTab"><i></i>Orders</a></li>
-					<li class="active"><a class="glyphicons envelope" data-toggle="tab" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#filterMessagesTab"><i></i></a></li>
-					<li><a class="glyphicons link" data-toggle="tab" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#filterLinksTab"><i></i></a></li>
-					<li><a class="glyphicons camera" data-toggle="tab" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#filterPhotosTab"><i></i></a></li>
+					<li><a class="glyphicons user_add" data-toggle="tab" href=" #filterUsersTab"><i></i>Users</a></li>
+					<li><a class="glyphicons shopping_cart" data-toggle="tab" href=" #filterOrdersTab"><i></i>Orders</a></li>
+					<li class="active"><a class="glyphicons envelope" data-toggle="tab" href=" #filterMessagesTab"><i></i></a></li>
+					<li><a class="glyphicons link" data-toggle="tab" href=" #filterLinksTab"><i></i></a></li>
+					<li><a class="glyphicons camera" data-toggle="tab" href=" #filterPhotosTab"><i></i></a></li>
 				</ul>
 			</div>
 			<!-- // Tabs Heading END -->
@@ -1798,7 +1650,7 @@
 		
 		<!-- Media item -->
 		<div class="media">
-			<small class="author"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" title="" class="strong">Martin</a></small>
+			<small class="author"><a href=" #" title="" class="strong">Martin</a></small>
 			<div class="media-object pull-left thumb"><img src="./FLAT KIT Template (v2.3.0)_files/avatar-51x51.jpg" alt="Image"></div>
 			<div class="media-body">
 				<blockquote>
@@ -1811,7 +1663,7 @@
 		
 		<!-- Media item -->
 		<div class="media right">
-			<small class="author"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" title="" class="strong">John Doe</a></small>
+			<small class="author"><a href=" #" title="" class="strong">John Doe</a></small>
 			<div class="media-object pull-right thumb"><img src="./FLAT KIT Template (v2.3.0)_files/avatar-51x51.jpg" alt="Image"></div>
 			<div class="media-body">
 				<blockquote class="pull-right">
@@ -1824,7 +1676,7 @@
 		
 		<!-- Media item -->
 		<div class="media">
-			<small class="author"><a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#" title="" class="strong">Ricky</a></small>
+			<small class="author"><a href=" #" title="" class="strong">Ricky</a></small>
 			<div class="media-object pull-left thumb"><img src="./FLAT KIT Template (v2.3.0)_files/avatar-51x51.jpg" alt="Image"></div>
 			<div class="media-body">
 				<blockquote>
@@ -2036,7 +1888,7 @@
 
 				<div class="container">
 
-					<h2><span class="text-primary">FLAT</span> <em>KIT</em> <span>Please choose an option or <a href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?lang=en&layout_type=fluid&menu_position=menu-left&style=style-default-menus-dark&rtl=false&top-sticky=true&sidebar-sticky=true&sidebar=true&sidebar_type=collapsible&animations=false&menuh_position=top&sidebar_hat=true&sidebar_width=wide&v=v2.3.0" class="text-underline">Go Admin Panel</a> <em>(default options)</em></span></h2>
+					<h2><span class="text-primary">FLAT</span> <em>KIT</em> <span>Please choose an option or <a href="" class="text-underline">Go Admin Panel</a> <em>(default options)</em></span></h2>
 					<div class="center">
 					
 						<div class="row">
@@ -2044,7 +1896,7 @@
 							
 								<div class="box form-horizontal active">
 									<h3>ADMIN</h3>
-									<a class="switch-box" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><img src="./FLAT KIT Template (v2.3.0)_files/preview-admin.jpg" alt="FLAT KIT Admin Preview"></a>
+									<a class="switch-box" href=" #"><img src="./FLAT KIT Template (v2.3.0)_files/preview-admin.jpg" alt="FLAT KIT Admin Preview"></a>
 									
 									<div class="options" data-for="admin">
 										<hr class="separator">
@@ -2199,7 +2051,7 @@
 								
 								<div class="box form-horizontal">
 									<h3>FRONT</h3>
-									<a class="switch-box" href="http://cdn.mosaicpro.biz/flatkit/php/admin/index.html?module=admin&page=index&url_rewrite=&layout_type=fluid&sidebar=true&menu_position=menu-left&sidebar-sticky=true&top-sticky=true&rtl=false&style=style-default-menus-dark&sidebar_type=collapsible&skin=false&animations=false&menuh_position=top&sidebar_width=wide&sidebar_hat=true&v=v2.3.0#"><img src="./FLAT KIT Template (v2.3.0)_files/preview-front.jpg" alt="FLAT KIT Front Preview"></a>
+									<a class="switch-box" href=" #"><img src="./FLAT KIT Template (v2.3.0)_files/preview-front.jpg" alt="FLAT KIT Front Preview"></a>
 									
 									<div class="options" data-for="front">
 										<hr class="separator">

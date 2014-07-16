@@ -1,13 +1,18 @@
-<?php
+<?php //--> 
+
 class Home extends CI_Controller{
-	/**
-	*
-	*	Load home.php 
-	*/
+	
+	protected $_user = NULL;
+
 	public function index(){
-
-		$this->load->view("home");
-
+		if(is_null($this->_user)) {
+			//$this->load->template('home');
+			
+			$this->load->loginTemplate('pages/login');
+			
+		} else {
+			$this->load->template('home');
+		}
 	}
 }
 
