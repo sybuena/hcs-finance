@@ -7,22 +7,21 @@
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		
+		<link href="<?php echo base_url().'assets/lib/bootstrap/css/bootstrap.css'; ?>" rel="stylesheet">
+		<link href="<?php echo base_url().'assets/css/login.css'; ?>" rel="stylesheet">
 
-		<link rel="stylesheet" href="/assets/lib/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="/assets/css/login.css">
-		
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!--[if lt IE 9]>
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	    <![endif]-->
 
-	    <script src="/assets/js/jquery.min.js"></script>
-		<script src="/assets/js/jquery-migrate.min.js"></script>
-		<script src="/assets/js/modernizr.js"></script>
-		<script src="/assets/js/less.min.js"></script>
-		<script src="/assets/js/excanvas.js"></script>
-		<script src="/assets/js/ie.prototype.polyfill.js"></script>
+	    <script src="<?php echo base_url().'/assets/js/jquery.min.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/jquery-migrate.min.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/modernizr.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/less.min.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/excanvas.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/ie.prototype.polyfill.js'; ?>"></script>
 		<script>if (/*@cc_on!@*/false && document.documentMode === 10) { document.documentElement.className+=' ie ie10'; }</script>
 
 	</head>

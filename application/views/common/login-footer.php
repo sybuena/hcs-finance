@@ -68,9 +68,9 @@
 	
 	var themerPrimaryColor = primaryColor;
 	</script>
-	
-	<script src="/assets/lib/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/assests/js/breakpoints.js"></script>
-	<script src="assets/js/core.init.js?v=v2.3.0"></script>
-	<script src="/assests/js/login.js"></script>
+
+	<script src="<?php echo base_url().'/assets/lib/bootstrap/js/bootstrap.min.js'; ?>"></script>
+	<script src="<?php echo base_url().'/assets/js/breakpoints.js'; ?>"></script>
+	<script src="<?php echo base_url().'/assets/js/core.init.js?v=v2.3.0'; ?>"></script>
+	<script src="<?php echo base_url().'/assets/js/login.js'; ?>"></script>
 </body></html>
