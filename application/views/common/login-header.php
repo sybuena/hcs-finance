@@ -18,7 +18,7 @@
 
 	    <script src="<?php echo base_url().'/assets/js/jquery.min.js'; ?>"></script>
 		<script src="<?php echo base_url().'/assets/js/jquery-migrate.min.js'; ?>"></script>
-		<script src="<?php echo base_url().'/assets/js/modernizr.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/modernizr.js'; ?>"></script>  
 		<script src="<?php echo base_url().'/assets/js/less.min.js'; ?>"></script>
 		<script src="<?php echo base_url().'/assets/js/excanvas.js'; ?>"></script>
 		<script src="<?php echo base_url().'/assets/js/ie.prototype.polyfill.js'; ?>"></script>
