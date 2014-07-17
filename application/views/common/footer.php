@@ -1,3 +1,25 @@
+		</div>
+	<!-- // Content END -->
+
+	</div>
+
+	<div class="clearfix"></div>
+	<!-- // Sidebar menu & content wrapper END -->
+
+	<div id="footer" class="hidden-print">
+
+		<!--  Copyright Line -->
+		<div class="copy">© 2014 <a href="http://www.fusionpl.us/">Fusionplus</a> - All Rights Reserved. </div>
+		<!--  End Copyright Line -->
+
+	</div>
+	<!-- // Footer END -->
+
+</div>
+<!-- // Main Container Fluid END -->
+	
+
+
 <!-- Global -->
 	<script>
 	var basePath = '',
@@ -6,7 +28,7 @@
 		DEV = false,
 		componentsPath = '/assets/components/';
 	
-	var primaryColor = '#e5412d',
+	var primaryColor = '#c94437',
 		dangerColor = '#b55151',
 		infoColor = '#5cc7dd',
 		successColor = '#609450',
