@@ -84,10 +84,11 @@ if (window.location != window.parent.location)
 		var c = $('.container-fluid');
 		//c.toggleClass('menu-hidden sidebar-hidden-phone');
 
-		if (c.is('.menu-hidden'))
+		if (c.is('.menu-hidden')) {
 		//	$('#menu').addClass('hidden-xs');
-		else
+		} else {
 		//	$('#menu').removeClass('hidden-xs');
+		}
 	}
 
 	if (typeof Holder != 'undefined')

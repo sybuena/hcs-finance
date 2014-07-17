@@ -1,14 +1,10 @@
-@import 'http://cdn.mosaicpro.biz/shared/components/library/bootstrap/css/bootstrap.min.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/fontawesome/assets/css/font-awesome.min.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/glyphicons/assets/css/glyphicons_regular.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/glyphicons/assets/css/glyphicons_social.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/glyphicons/assets/css/glyphicons_filetypes.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/common/gallery/blueimp-gallery/assets/lib/css/blueimp-gallery.min.css?v=v2.3.0&sv=v0.0.1.1';
-    @import '../../../assets/components/modules/admin/forms/elements/select2/assets/lib/css/select2.css';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/modules/admin/charts/easy-pie/assets/lib/css/jquery.easy-pie-chart.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/common/forms/elements/bootstrap-select/assets/lib/css/bootstrap-select.css?v=v2.3.0&sv=v0.0.1.1';
-    @import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/pictoicons/css/picto.css?v=v2.3.0&sv=v0.0.1.1';
-    html {
+
+    
+    
+    
+    
+    
+html {
     -webkit-font-smoothing: antialiased !important;
 }
 .dropdown-menu img {
