@@ -6,9 +6,9 @@ class Home extends CI_Controller{
 
 	public function index(){
 		if(is_null($this->_user)) {
-			$this->load->template('home');
+			//$this->load->template('home');
 			
-			//$this->load->loginTemplate('pages/login');
+			$this->load->loginTemplate('pages/login');
 			
 		} else {
 			$this->load->template('home');
