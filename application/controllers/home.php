@@ -1,11 +1,10 @@
 <?php //--> 
 
-class Home extends CI_Controller{
+class Home extends MY_Controller{
 	
-	protected $_user = NULL;
 
 	public function index(){
-		if(is_null($this->_user)) {
+		if(empty($this->_user)) {
 			//$this->load->template('home');
 			
 			$this->load->loginTemplate('pages/login');
@@ -13,6 +12,13 @@ class Home extends CI_Controller{
 		} else {
 			$this->load->template('home');
 		}
+	}
+
+	public function logout() {
+		$this->session->unset_userdata('login_user');
+		header('Location: /');
+		//header("Refresh:0");
+		
 	}
 }
 
