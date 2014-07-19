@@ -12,7 +12,7 @@
 |
 | If this is not set then CodeIgniter will guess the protocol, domain and
 | path to your installation.
-|
+|  
 */
 //special case for anjo
 
