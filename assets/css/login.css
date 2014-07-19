@@ -1,9 +1,3 @@
-@import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/fontawesome/assets/css/font-awesome.min.css?v=v2.3.0&sv=v0.0.1.1';
-@import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/glyphicons/assets/css/glyphicons_regular.css?v=v2.3.0&sv=v0.0.1.1';
-@import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/glyphicons/assets/css/glyphicons_social.css?v=v2.3.0&sv=v0.0.1.1';
-@import 'http: //cdn.mosaicpro.biz/shared/components/library/icons/glyphicons/assets/css/glyphicons_filetypes.css?v=v2.3.0&sv=v0.0.1.1';
-@import '../../../assets/components/modules/admin/forms/elements/uniform/assets/lib/css/uniform.default.css';
-@import 'http: //cdn.mosaicpro.biz/shared/components/common/forms/elements/bootstrap-select/assets/lib/css/bootstrap-select.css?v=v2.3.0&sv=v0.0.1.1';
 
 html {
     -webkit-font-smoothing: antialiased !important;
@@ -951,6 +945,7 @@ html:not(.sidebar) body>.container-fluid.fixed.menu-left {
     border-right: 1px solid #efefef;
 }
 #content {
+    background: url("../img/pattern.png") no-repeat scroll center 0 !important;
     position: relative;
     overflow: hidden;
     margin: 0;
