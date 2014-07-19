@@ -16,9 +16,9 @@
 						<label id='username'>Username or Email</label>
 						<input type="text" id="username" class="input-block-level form-control required" placeholder="Your Username or Email address"> 
 						<label id="password">Password</label>
-						<div class="clearfix"></div>
 						<input type="password" id="password" class="input-block-level form-control margin-none required" placeholder="Your Password">
 						<a class="pull-right" href="">forgot it?</a>
+						<div class="clearfix"></div>
 						<div class="separator bottom"></div> 
 						<div class="row">
 							<div class="col-md-8">
