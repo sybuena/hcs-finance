@@ -19,7 +19,6 @@
 
 	    <script type="text/javascript" src="<?php echo base_url().'/assets/js/jquery.min.js'; ?>"></script>
 		<script type="text/javascript" src="<?php echo base_url().'/assets/js/jquery-migrate.min.js'; ?>"></script>
-		<script type="text/javascript" src="<?php echo base_url().'/assets/js/modernizr.js'; ?>"></script>  
 		<script src="/assets/js/ie.prototype.polyfill.js"></script>		
 		<script>
 			if (/*@cc_on!@*/false && document.documentMode === 10) { 
