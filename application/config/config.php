@@ -16,11 +16,8 @@
 */
 //special case for anjo
 
-if($_SERVER['HTTP_HOST'] == 'localhost') {
-	$config['base_url']	= 'http://'.$_SERVER['HTTP_HOST'].'/git/hcs-finance/';	
-} else {
-	$config['base_url']	= 'http://'.$_SERVER['HTTP_HOST'];
-}
+$config['base_url']	= 'http://'.$_SERVER['HTTP_HOST'];
+
 /*
 |--------------------------------------------------------------------------
 | Index File
