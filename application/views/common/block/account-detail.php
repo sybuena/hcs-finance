@@ -18,7 +18,7 @@
 		</li>
 		<li class="innerTB half">
 			<span>
-				<a class="btn btn-default btn-xs pull-right" href="">Sign Out</a>
+				<a class="btn btn-default btn-xs pull-right" href="/home/logout">Sign Out</a>
 				<span class="clearfix"></span>
 			</span>
 		</li>
