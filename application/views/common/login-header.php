@@ -17,6 +17,7 @@
 	      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	    <![endif]-->
 
+		<script src="<?php echo base_url().'/assets/js/modernizr.js'; ?>"></script>
 	    <script type="text/javascript" src="<?php echo base_url().'/assets/js/jquery.min.js'; ?>"></script>
 		<script type="text/javascript" src="<?php echo base_url().'/assets/js/jquery-migrate.min.js'; ?>"></script>
 		<script src="/assets/js/ie.prototype.polyfill.js"></script>		
