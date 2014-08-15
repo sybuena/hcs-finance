@@ -6,11 +6,13 @@ class MY_Controller extends CI_Controller {
 	const URL    	 	= 'https://webapp.healthcaresynergy.com:8002/demoalpha/CaregiverPortalMobile/CaregiverPortalService.svc';
 	
 	protected $_user = NULL;
+	protected $_input = NULL;
 	
 	public function __construct() { 
 		parent::__construct();
 
 		$this->_user  = $this->session->userdata('login_user');
+		$this->_input = $this->input->post('data');
 
 		//print_r($this->_user);exit;
 	}

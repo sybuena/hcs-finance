@@ -31,54 +31,11 @@ class Home extends MY_Controller {
 		}
 	}
 
-	public function financialData(){
+	public function ar_aging() {	
+		// Call the session data and convert it on sessions function to minimize the array extension
+		$data = sessions($this->session->all_userdata());
 
-
-	}
-
-	public function ar_aging() {		
-		$session = $this->session->all_userdata();
-		$data = sessions($session);
-
-		// var_dump($_POST['data']['start-date']);
-
-		// echo $this->input->post('submit');
-
-/*		if($_REQUEST['submit']){
-
-			$agencyCode = $_POST['agencyCode'];
-			$reportType = $_POST['reportType'];
-			$showPaid = $_POST['showPaid'];
-			$startDate = $_POST['startDate'];
-			$endDate = $_POST['endDate'];
-			$asOfDate = $_POST['asOfDate'];
-
-		$xml 	= (string) sprintf(self::REPORTDATA, 
-									$agencyCode, // Agency Code
-									$agencyName, // Agency Name
-									$agencyType, // Agency Type
-									$usernameWord, // "username" Word
-									$passwordWord, // "pwd" Word
-									$username, // Username
-									$password, // Password
-									$agencyCode, // Agency Code
-									$startDate, // Start date
-									$endDate, // End date
-									$asOfDate, // As of date
-									$reportType, // Report Type
-									$showPaid	// Show Paid
-									);
-
-	    $result = xml2array($this->_soapCall($xml, 'RetrieveFinancialReportData'));
-	    // Dig inside the XML until to CDATA then...
-	    $result = $result['s:Envelope']['s:Body']['RetrieveFinancialReportDataResponse']['RetrieveFinancialReportDataResult']['a:Data'];
-	    // Convert the cdata into XML to Array
-		$result = xml2array($result, 'RetrieveFinancialReportData');
-
-		$this->load->template('ar_aging', $result);
-
-		}*/
-
+		if(empty($this->_input)){
 
 		$xml 	= sprintf(self::REPORTDATA, 
 							$data['agencyCode'], // Agency Code
@@ -97,15 +54,47 @@ class Home extends MY_Controller {
 							);
 
 	    $result = xml2array($this->_soapCall($xml, 'RetrieveFinancialReportData'));
+	    // Convert XML's CDATA into array
 		$this->load->template('ar_aging', xmlData($result));
 
+		} else {
+			$input = inputs($this->_input);
+
+			$xml 	= sprintf(self::REPORTDATA, 
+								$data['agencyCode'], // Agency Code
+								$data['agencyName'], // Agency Name
+								$data['agencyType'], // Agency Type
+								$data['usernameWord'], // "username" Word
+								$data['passwordWord'], // "pwd" Word
+								$data['username'], // Username
+								$data['password'], // Password
+								$input['agency-code'], // Agency Code
+								$input['start-date'], // Start date
+								$input['end-date'], // End date
+								$input['as-of-date'], // As of date
+								$input['report-type'], // Report Type
+								$input['show-paid']	// Show Paid
+								);
+
+		    $result = xml2array($this->_soapCall($xml, 'RetrieveFinancialReportData'));
+		    // Convert XML's CDATA into array
+			$this->load->template('ar_aging', xmlData($result));
+
+			print_r($input);
+			$this->_throwSuccess();
+
+	
+	// }
+
+		// print_r($_POST['data']);
+		}
 	}
 
 	public function revenue() {		
-		$session = $this->session->all_userdata();
-		$data = sessions($session);
+		// Call the session data and convert it on sessions function to minimize the array extension
+		$data = sessions($this->session->all_userdata());
 
-		$xml 	= (string) sprintf(self::REVENUE, 
+		$xml 	= sprintf(self::REVENUE, 
 							$data['agencyCode'], // Agency Code
 							$data['agencyName'], // Agency Name
 							$data['agencyType'], // Agency Type
@@ -122,6 +111,7 @@ class Home extends MY_Controller {
 							);
 
 		$result = xml2array($this->_soapCall($xml, 'RetrieveFinancialReportData'));
+	    // Convert XML's CDATA into array
 		$this->load->template('revenue', xmlData($result));
 		
 	}

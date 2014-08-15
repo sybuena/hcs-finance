@@ -85,3 +85,15 @@ function sessions($session) {
 
 		return $session;
 }
+
+function inputs($data) {
+	$input = array ( 'start-date'   => $_POST['data']['start-date'],
+					 'end-date'     => $_POST['data']['end-date'],
+					 'as-of-date'   => $_POST['data']['as-of-date'],
+					 'agency-code'  => $_POST['data']['agency-code'],
+					 'report-type'  => $_POST['data']['report-type'],
+					 'show-paid'    => $_POST['data']['show-paid']
+					);
+
+	return $input;
+}
