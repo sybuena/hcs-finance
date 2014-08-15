@@ -1,35 +1,64 @@
 <?php
 
 class Login extends MY_Controller {
+    
+    const LOGIN_XML = '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body>
+		<LoginCaregiverPortal><userName></userName><password></password><portal>CaregiverPortal</portal><caregiverID>%s</caregiverID>
+		<timeStamp>%s</timeStamp></LoginCaregiverPortal></soapenv:Body></soapenv:Envelope>';
 
-	const USERNAME = 'test';
-	const PASSWORD = 'test';
-
-    /**
-     * Index page 
-     */
+    public function __construct(){
+    	parent::__construct();
+    }
     public function index(){
 
     }
 
     public function check() {
-    	$username = $_POST['logUsername'];
-    	$password = $_POST['logPassword'];
+    	
+    	$username = encrypt($_POST['logUsername']);
+    	$password = encrypt($_POST['logPassword']);
+    	
+		$xml 	=  sprintf(self::LOGIN_XML, $username, $password);
+		$result = xml2array($this->_soapCall($xml, 'LoginCaregiverPortal'));
 
-		if($username == self::USERNAME && $password == self::PASSWORD) {
-			$sessionData = array(
-				'username' => $username,
-				'password' => $password
-				);
-
+    	// check if empty username and password	
+		if(loginError($result) === 'false') 
+		{
+			$sessionData = userAgency($result, $_POST['logUsername'], $_POST['logPassword']);
 			$this->session->set_userdata('login_user', $sessionData);
-
 			$this->_throwSuccess();
-		} else {
+			exit;
+		} 
+		else 
+		{
 			$this->_throwError();
-		} 	
-		exit;
-    }
+			exit;
+		}
+		
+
+
+
+
+
+/*		if(empty($username) && empty($password)) {
+			$this->_throwError();
+		}
+
+		// encrypt the values 
+		$username = encrypt($username);
+		$password = encrypt($password);
+
+		$xml 	=  sprintf(self::LOGIN_XML, $username, $password);
+		$result = $this->_soapCall($xml, 'LoginCaregiverPortal');
+		
+		echo $result;
+    	// encrypt the values
+		exit;*/
+
+    	// curl request
+	}
+
+
 
     public function now() {
     	echo 'now';

@@ -17,8 +17,44 @@
 
 </div>
 <!-- // Main Container Fluid END -->
+<script type="text/javascript">
+$('#submit').click(function() {
+	var id = $(this).attr('id');
+	var data = {
+		'start-date'   : $('input[name="startDate"]').val(),
+		'end-date' 	   : $('input[name="endDate"]').val(),
+		'as-of-date'   : $('input[name="asOfDate"]').val(),
+		'agency-code'  : $('input[name="agencyCode"]').val(),
+		'report-type'  : $('input[name="reportType"]').val(),
+		'show-paid'    : $('input[name="showPaid"]').val()
+	};
+	// console.log(data);
+	$.ajax({
+     type 		: 'POST',
+     url 		: '/home/ar_aging', 
+     data 		: {'data': data},
+     dataType 	: 'json',  
+     success 	: function(data){
+         
+         if(data.error) {
+         	// When both field is empty validate red text
 	
 
+         } else {
+         	location.reload();
+         }
+     },
+
+     error 		: function(error) {
+     	
+     }
+  });
+
+
+	return false;
+});
+
+</script>
 
 <!-- Global -->
 	<script>

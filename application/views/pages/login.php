@@ -14,9 +14,9 @@
 					
 					<div>
 						<label id='username'>Username or Email</label>
-						<input type="text" id="username" class="input-block-level form-control required" placeholder="Your Username or Email address"> 
+						<input value='CFRIEND' type="text" id="username" class="input-block-level form-control required" placeholder="Your Username or Email address"> 
 						<label id="password">Password</label>
-						<input type="password" id="password" class="input-block-level form-control margin-none required" placeholder="Your Password">
+						<input value='2Qweasdzx@' type="password" id="password" class="input-block-level form-control margin-none required" placeholder="Your Password">
 						<a class="pull-right" href="">forgot it?</a>
 						<div class="clearfix"></div>
 						<div class="separator bottom"></div> 
@@ -144,6 +144,9 @@
 			return false;
 		
 			} else {
+
+				$('button#submit').html('Signing in....');
+				$('button#submit').attr('disabled', 'disabled');
 				$.ajax({
 			         type 		: 'POST',
 			         url 		: '/login/check', 
@@ -153,6 +156,8 @@
 			             
 			             if(data.error) {
 			             	// When both field is empty validate red text
+			             	$('button#submit').html('Sign in');
+							$('button#submit').removeAttr('disabled');
 			             	$('#error').text('Username and password is not registered').css({
 			             			"color": red
 			             	});	

@@ -12,6 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		
 		<link rel="stylesheet" href="<?php echo base_url().'assets/lib/bootstrap/css/bootstrap.min.css'; ?>">
+		<link rel="stylesheet" href="<?php echo base_url().'assets/lib/bootstrap/css/bootstrap-datetimepicker.css'; ?>">
 		<link rel="stylesheet" href="<?php echo base_url().'assets/css/style.css'?>">
 		<link rel="stylesheet" href="<?php echo base_url().'assets/lib/font-awesome/css/font-awesome.css'; ?>">
 
@@ -24,6 +25,8 @@
 		<script src="<?php echo base_url().'/assets/js/jquery.min.js'?>"></script>
 		<script src="<?php echo base_url().'/assets/js/jquery-migrate.min.js'; ?>"></script>
 		<script src="<?php echo base_url().'/assets/js/modernizr.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/moment.js'; ?>"></script>
+		<script src="<?php echo base_url().'/assets/js/bootstrap-datetimepicker.js'; ?>"></script>
 		<script src="<?php echo base_url().'/assets/js/less.min.js'; ?>"></script>
 		<script src="<?php echo base_url().'/assets/js/excanvas.js'; ?>"></script>
 		<script src="/assets/js/ie.prototype.polyfill.js"></script>

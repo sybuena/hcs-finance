@@ -1,6 +1,6 @@
 <!-- Menu Toggle Button -->
 <button type="button" class="btn btn-navbar">
-	<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+	<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 </button>
 <!-- // Menu Toggle Button END -->
 
@@ -16,8 +16,8 @@
 		<a data-toggle="collapse" href="#menu_dashboard" class=""><i class="fa fa-dashboard fa-lg"></i> <span>Dashboard</span><span class="fa fa-chevron-down"></span></a>
 		<ul class="collapse" id="menu_dashboard">
 			<li class=" active"><a href="">Default</a></li>
-			<li class=""><a href="">Analytics</a></li>
-			<li class=""><a href="">Users</a></li>
+			<li class=""><a href="/home/ar_aging">AR_Aging</a></li>
+			<li class=""><a href="/home/revenue">Revenue</a></li>
 			<li class=""><a href="">Overview</a></li>
 		</ul>
 	</li>
